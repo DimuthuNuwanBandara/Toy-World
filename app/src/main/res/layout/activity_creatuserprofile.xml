@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/flower_back"
+    tools:context=".Creatuserprofile">
+
+    <LinearLayout
+        android:layout_width="317dp"
+        android:layout_height="579dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.502">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/userpro" />
+
+        <Button
+            android:id="@+id/btncreatstupr"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="#FFC107"
+            android:text="Create Users Profile" />
+
+        <Button
+            android:id="@+id/btnCreatteapr"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="#F44336"
+            android:text="Login Administrator Profile" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

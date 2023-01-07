@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/flower_back"
+    tools:context=".StudentSkillUpdate">
+
+
+    <TextView
+        android:id="@+id/textViewMotor"
+        android:layout_width="149dp"
+        android:layout_height="27dp"
+        android:text="Age 6-13 Items"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#8BC34A"
+        android:text="Dolls"
+        android:textColor="#191717"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#8BC34A"
+        android:text="Building set "
+        android:textColor="#121010"
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/textViewSocial"
+        android:layout_width="149dp"
+        android:layout_height="27dp"
+        android:text="Age 14-19 Items"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="473dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Of Products"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#8BC34A"
+        android:text="Games"
+        android:textColor="#0B0A0A"
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <ProgressBar
+        android:id="@+id/productprogressBar12"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="337dp"
+        android:layout_height="2dp"
+        android:background="#51676060"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#8BC34A"
+        android:text="Action figures"
+        android:textColor="#0C0B0B"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <ProgressBar
+        android:id="@+id/productprogressBar15"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="337dp"
+        android:layout_height="2dp"
+        android:background="#51676060"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prices"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <ProgressBar
+        android:id="@+id/ProductprogressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="337dp"
+        android:layout_height="2dp"
+        android:background="#51676060"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="149dp"
+        android:layout_height="27dp"
+        android:text="Products"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="13dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="148dp"
+        android:layout_height="47dp"
+        android:background="#E41CC3"
+        android:text="Update "
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="546dp" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#8BC34A"
+        android:text="Puzzles"
+        android:textColor="#171515"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#8BC34A"
+        android:text="Blocks"
+        android:textColor="#0E0D0D"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <ProgressBar
+        android:id="@+id/productprogressBar16"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="337dp"
+        android:layout_height="2dp"
+        android:background="#51676060"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <ProgressBar
+        android:id="@+id/productprogressBar17"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="337dp"
+        android:layout_height="2dp"
+        android:background="#51676060"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="525dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="438dp"
+        tools:layout_editor_absoluteY="749dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
